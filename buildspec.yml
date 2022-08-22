@@ -18,7 +18,9 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+      - aws s3 cp --recursive --acl public-read ./build s3://${pipeskill}/
 # Include only the files required for your application to run.
 artifacts:
   files:
-    - build/**/*
+    - **/*
+  base-directory: build
