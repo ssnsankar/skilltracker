@@ -6,10 +6,10 @@ phases:
       nodejs: 12
     commands:
       - echo Installing
+      - npm install
   pre_build:
     commands:
-      - echo Installing source NPM dependencies...
-      - npm install
+      - echo pre build
   build:
     commands:
       - echo Build started on `date`
