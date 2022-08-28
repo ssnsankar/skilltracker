@@ -1,4 +1,4 @@
-const baseUrl = 'https://0nrae2fee9.execute-api.ap-south-1.amazonaws.com/Dev'
+const baseUrl = 'https://bwypa3d554.execute-api.ap-south-1.amazonaws.com/Dev'
                     //'https://cdeb397r4l.execute-api.ap-south-1.amazonaws.com/api' - 'http://localhost:52100/api'
 const apiName = 'skill-tracker'
 const api = 'api'
