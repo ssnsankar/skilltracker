@@ -5,7 +5,7 @@ const api = 'api'
 const version = 'v1'
 const routers = {
     admin: 'admin',
-    skillDetail: 'skillDetail'
+    skillDetail: 'skilldetail'
 }
 
 export {
